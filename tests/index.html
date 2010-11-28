@@ -15,6 +15,7 @@
 			background-position: 3px 5px;
 			-webkit-box-shadow: 1px 2px 10px #000000; -moz-box-shadow: 1px 2px 10px #000000; box-shadow: 1px 2px 10px #000000; 
 			-webkit-transition: border 1s linear; -moz-transition: border 1s linear; transition: border 1s linear;
+            clip: rect(50px,50px,50px,50px)
 		}
 	</style>
 	<script src="jquery-1.4.3.js"></script>
@@ -25,12 +26,14 @@
 	<script src="../marginpadding.js"></script>
 	<script src="../transition.js"></script>
 	<script src="../transform.js"></script>
+    <script src="../clip.js"></script>
 	<!-- unit tests -->
 	<script src="unit/bgpos.js"></script>
 	<script src="unit/boxshadow.js"></script>
 	<script src="unit/marginpadding.js"></script>
 	<script src="unit/transition.js"></script>
 	<script src="unit/transform.js"></script>
+    <script src="unit/clip.js"></script>
 </head>
 <body>
 	<h1 id="qunit-header">jQuery-cssHooks Test Suite</h1>
