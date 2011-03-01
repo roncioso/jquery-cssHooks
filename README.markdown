@@ -14,6 +14,7 @@ Current Hooks:
  * textShadow, and textShadowColor, textShadowX, textShadowY, and textShadowBlur
  * color animations for backgroundColor, borderBottomColor, borderLeftColor, borderRightColor, borderTopColor, borderColor, boxShadowColor, color, outlineColor, and textShadowColor
  * columnCount, columnSpan, columnGap, columnWidth, columnRuleColor, columnRuleStyle, columnRuleWidth
+ * 2D transforms
 # Usage
 
 Super simple. Just request the margin, padding, backgroundPosition, boxShadow, etc like you would other CSS properties.
@@ -41,4 +42,4 @@ jQuery 1.4.3 introduced the concept of cssHooks. They allow you to hook directly
 
 The cssHooks plugin is licensed under the MIT License (LICENSE.txt).
 
-Copyright (c) 2010 [Brandon Aaron](http://brandonaaron.net), [Burin Asavesna](http://helloburin.com), [Tom Ellis](http://www.webmuse.co.uk), and [Phil Dokas](http://jetless.org)
+Copyright (c) 2010 [Brandon Aaron](http://brandonaaron.net), [Burin Asavesna](http://helloburin.com), [Tom Ellis](http://www.webmuse.co.uk), [Phil Dokas](http://jetless.org) and [Louis-Rémi Babé](http://twitter.com/louis_remi).
